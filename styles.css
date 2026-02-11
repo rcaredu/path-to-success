@@ -62,3 +62,113 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--Purple);
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Kavoon", cursive;
+    color: var(--White);
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+#tagline {
+   color: var(--White);
+   font-style: italic;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav {
+    color: var(--Purple);
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: var(--Yellow);
+}
+
+nav li {
+    background-color: var(--White);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: var(--Purple);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav, h2 {
+    font-size: 1.5em;
+}
+
+nav h2 {
+    font-family: 'Inter';
+    text-transform: uppercase;
+    font-style: italic;
+    color: var(--Dark-gray);
+}
+
+h2 {
+    font-size: 2em;
+    color: var(--White);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--Yellow);
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.15em ;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-spacing: 0;
+    border: 2px solid var(--Yellow);
+}
+
+th {
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background-color: var(--White);
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid var(--Yellow);
+    border-left: 2px solid var(--Yellow);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;    
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--White);
+}
+
+footer a {
+    color: var(--White);
+}
