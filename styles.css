@@ -83,6 +83,7 @@ h1, h2 {
 #tagline {
    color: var(--White);
    font-style: italic;
+   margin-bottom: 40px;
 }
 
 h1 {
@@ -107,10 +108,12 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 nav, h2 {
-    font-size: 1.5em;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 nav h2 {
@@ -171,4 +174,58 @@ footer {
 
 footer a {
     color: var(--White);
+}
+
+#services {
+    padding: 40px 20px;
+}
+
+#services h4 {
+    font-weight: bold;
+    color: var(--Purple);
+    margin-bottom: 10px;
+}
+
+#services p {
+    line-height: 1.3rem;
+}
+
+#card {
+    margin: 20px 0px;
+    background-color: var(--White);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#why-choose-us {
+    background-color: var(--Pink);
+    font-weight: bol;
+}
+
+#take-the-first-step {
+    background-color: var(--Pink);
+    padding: 40px 20px;
+}
+
+#take-the-first-step p{
+    color: var(--White);
+}
+
+#take-the-first-step a {
+    display: block;
+    width: fit-content;
+    margin: 25px auto 0;
+    background-color: var(--White);
+    color: var(--Dark-gray);
+    text-decoration: none;
+    padding: 20px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 6px 6px 0 var(--Dark-gray);
+}
+
+#pricing {
+    padding: 40px 20px;
 }
