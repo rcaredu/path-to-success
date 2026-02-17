@@ -190,21 +190,21 @@ footer a {
     line-height: 1.3rem;
 }
 
-#card {
+.card {
     margin: 20px 0px;
     background-color: var(--White);
     padding: 40px 20px;
     border-radius: 10px;
 }
 
-#card img {
+.card img {
     margin-bottom: 20px;
 }
 
 #why-choose-us {
     padding: 20px;
     background-color: var(--Pink);
-    font-weight: bol;   
+    font-weight: bold;   
 }
 
 #why-choose-us > ul {
