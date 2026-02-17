@@ -197,10 +197,34 @@ footer a {
     border-radius: 10px;
 }
 
-#why-choose-us {
-    background-color: var(--Pink);
-    font-weight: bol;
+#card img {
+    margin-bottom: 20px;
 }
+
+#why-choose-us {
+    padding: 20px;
+    background-color: var(--Pink);
+    font-weight: bol;   
+}
+
+#why-choose-us > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+
+#why-choose-us > ul > li {
+    padding: 40px 40px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#why-choose-us > ul > li:nth-child(1) { background-color: var(--Teal); }
+#why-choose-us > ul > li:nth-child(2) { background-color: var(--Lavender); }
+#why-choose-us > ul > li:nth-child(3) { background-color: var(--Yellow); }
+#why-choose-us > ul > li:nth-child(4) { background-color: var(--White); }
+
 
 #take-the-first-step {
     background-color: var(--Pink);
