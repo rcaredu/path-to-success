@@ -62,10 +62,14 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+html {
+    background-color: var(--Dark-gray);
+}
 
 body {
     font-family: "Inter", sans-serif;
     background-color: var(--Purple);
+    max-width: 450px;
 }
 
 header {
@@ -87,6 +91,7 @@ h1, h2 {
 }
 
 h1 {
+    padding-top: 20px;
     font-size: 3em;
 }
 
@@ -108,15 +113,12 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.1rem;
-}
-
-nav, h2 {
-    font-size: 1em;
-    font-weight: 700;
+    font-size: 1rem;
 }
 
 nav h2 {
+    font-size: 1.5em;
+    font-weight: 700;
     font-family: 'Inter';
     text-transform: uppercase;
     font-style: italic;
@@ -166,9 +168,7 @@ footer {
     justify-content: center;
     gap: 40px;    
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 40px 20px;
     color: var(--White);
 }
 
@@ -211,13 +211,14 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: bold;
+    text-align: center;
 }
 
 #why-choose-us > ul > li {
-    padding: 40px 40px;
+    padding: 40px 20px;
     margin: 10px 10px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #why-choose-us > ul > li:nth-child(1) { background-color: var(--Teal); }
